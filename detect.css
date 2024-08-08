@@ -1,0 +1,162 @@
+
+.detect-fb{
+    margin-top: 100px !important;
+}
+.detect-container{
+    width: 100%;
+    height: max-content;
+    margin-bottom: 140px;
+}
+.d-cont{
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.detect-image-cont{
+    width: 80%;
+}
+.detect-image{
+    width: 300px;
+    height: 230px;
+    background: url(./assets/images/Rectangle\ 5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 76;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.fast-accurate-scabies-detection.detect{
+    max-width: 100%;
+    font-family: Helvetica Rounded, var(--default-font-family);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    z-index: 9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-wrap: wrap;
+}
+
+
+
+
+.upload-container{
+    width: 46%;
+height: 200px;
+border: 1.5px solid transparent;
+    border-image-source: linear-gradient(93.62deg, #FF0000 0%, #9D2CF5 98.71%);
+    border-image-slice: 1;
+background-color: #0D0D0D;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+z-index: 11111;
+}
+
+.upload-container:hover{
+   transform: scale(1.02);
+   transition: 400ms all;
+   cursor: pointer;
+}
+
+.upload-div{
+    display: flex;
+}
+  .upload-btn{
+background-color: transparent;
+text-align: center;
+box-shadow: none;
+border: none;
+color: white;
+font-size: 18px;
+
+  }
+  .upload-icon{
+    width: 30px !important;
+    height: 30px !important;
+    background: url(./assets/images/Vector.png)
+    no-repeat center;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+
+.take-image{
+    color: gray;
+    margin: 0;
+    margin-top: 10px;
+    font-family: Poppins;
+font-weight: 400;
+line-height: 16px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .fast-accurate-scabies-detection.detect {
+        font-size: 32px !important;
+    }
+    .fast-accurate-scabies-detection-2d{
+        font-size: 32px !important;
+    }
+   }
+ 
+   
+   @media (max-width: 767px) {
+    .d-cont{
+        flex-direction: column;
+    }
+    .fast-accurate-scabies-detection.detect {
+        font-size: 28px !important;
+        line-height: 1.2112;
+    }
+    .fast-accurate-scabies-detection-2d{
+        font-size: 28px !important;
+    }
+
+    .upload-container{
+        margin-top: 120px;
+    }
+    .upload-container{
+        width: 100%;
+    }
+    .detect-image{
+        width: 100%;
+    }
+}
+
+
+.result-container{
+    width: 100%;
+    height: 100px;
+
+}
+
+.result-div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    height: 100px;
+
+}
+.take-image.nores{
+    padding-top: 38px;
+    margin: 0 auto;
+}
